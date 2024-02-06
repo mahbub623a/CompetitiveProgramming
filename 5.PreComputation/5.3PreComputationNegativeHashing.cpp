@@ -13,7 +13,7 @@ int main()
     for (int i = 0; i < n; i++) // -2 5 7 9 -3 -6 1 -2 3
     {
         cin >> arr[i];
-        arr[i] += 6; // Maximum negative -6 (We have to add maximum negative)
+        arr[i] += 6; /// Maximum negative -6 (We have to add maximum negative)
         hsh[arr[i]]++;
     }
 
@@ -23,7 +23,7 @@ int main()
     {
         int num;
         cin >> num;
-        cout << hsh[num + 6] << " ";
+        cout << hsh[num + 6] << " "; /// add the maximum negative with index
     }
 
     return 0;

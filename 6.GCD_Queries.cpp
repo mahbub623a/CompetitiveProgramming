@@ -56,18 +56,16 @@ void Hack()
         cin >> arr[i];
     }
 
-    // for (int i = 1; i <= n; i++)
     loop(i, 1, n + 1)
     {
         forward[i] = __gcd(forward[i - 1], arr[i]);
     }
-    // for (int i = n; i >= 1; i--)
+
     rloop(i, n + 1, 1)
     {
         backward[i] = __gcd(backward[i + 1], arr[i]);
     }
 
-    // print(arr);
     while (q--)
     {
         int l, r;

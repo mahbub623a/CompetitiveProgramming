@@ -54,8 +54,8 @@
 */
 #include <bits/stdc++.h>
 using namespace std;
-// For 2D array
 
+// For 2D array
 const int N = 1e3;
 long long arr[N][N];
 long long sumArr[N][N];

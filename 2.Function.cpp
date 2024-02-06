@@ -1,9 +1,3 @@
-/*
-    Mahbubur Rahman
-    ID:011221441
-    United International University
-*/
-
 #include <bits/stdc++.h>
 using namespace std;
 

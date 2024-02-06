@@ -23,16 +23,13 @@ int main()
     auto it = s.find("abc");
     it != s.end() ? cout << *it << "\n" : cout << "Not found\n";
 
-    // erase
-    /*
-        / we can use value or use iterator to erase some value
-    */
+    /// we can use value or use iterator to erase some value
     s.erase("abc");
     /// s.erase(it);
     // print(s);
 
-    // unordered set
-    /*
+    /*    
+      unordered set
       / we can not use complex data type as a key. like pair, set, vector etc
       / we can use int, double, float, char, string etc in unordered set
    */
@@ -56,10 +53,7 @@ int main()
 
     auto it = ms.find("Mahbub"); /// it will return iterator of first value if we have duplicate
 
-    // erase
-    /*
-       / we can use value or use iterator to erase value
-    */
+    /// we can use value or use iterator to erase value
     ms.erase(it);       /// it will delete only one time with "Mahbub"
     ms.erase("Mahbub"); /// it will delete all "Mahbub"
 

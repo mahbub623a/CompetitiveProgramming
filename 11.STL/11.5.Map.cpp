@@ -19,9 +19,8 @@ int main()
     m.insert({4, "afg"});
     m.insert(make_pair(6, "mah"));
     m[5] = "cde";
-    /*
-        / map always store unique * key *
-    */
+
+    /// map always store unique key
 
     // print
     map<int, string>::iterator it;
@@ -41,12 +40,9 @@ int main()
     else
         cout << it->first << " " << it->second << endl;
 
-    // erase
-    /*
-        / we can use key or iterator to erase value
-    */
 
-    m.erase(3); //  T = log(n)
+    /// we can use "key" or "iterator" to erase value
+    m.erase(3); // key   T = log(n)
     auto it = m.find(4);
     m.erase(it);
     print(m);

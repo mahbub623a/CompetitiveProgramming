@@ -1,12 +1,12 @@
 /*
-Given T test case and each test case a number N. Print its factorial for each test
-case % M
-Where M = 1e9+7
+    Given T test case and each test case a number N. Print its factorial for each test
+    case % M
+    Where M = 1e9+7
 
-Constrains
-1 <= T <= 1e5
-1 <= N <= 1e5
-Time limit = 1s
+    Constrains
+    1 <= T <= 1e5
+    1 <= N <= 1e5
+    Time limit = 1s
 */
 
 #include <bits/stdc++.h>

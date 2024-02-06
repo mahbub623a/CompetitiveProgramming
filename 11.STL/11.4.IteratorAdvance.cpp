@@ -14,10 +14,7 @@ int main()
         cout << value << " ";
     cout << endl;
 
-    /*
-        / we don't need to declare iterator if we use "auto" keyword
-    */
-
+    /// we don't need to declare iterator if we use "auto" keyword
     vector<int> vec = {1, 2, 3, 4, 5};
     for (auto it = vec.begin(); it != vec.end(); it++)
         cout << (*it) << " ";

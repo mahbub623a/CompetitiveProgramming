@@ -6,6 +6,7 @@ using namespace std;
         cout << value << " "; \
     cout << endl;
 
+/// Selection sort
 void selectionSort(int arr[], int n)
 {
     for (int i = 0; i < n; i++)
@@ -20,7 +21,7 @@ void selectionSort(int arr[], int n)
     }
 }
 
-// Merge sort
+/// Merge sort
 const int N = 1e5 + 10;
 int arr[N];
 

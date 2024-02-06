@@ -24,7 +24,7 @@ int main()
 
     /*
         / it++ means next element of container
-        / it + 1 means next location of memory
+        / it + 1 means next location of memory address
     */
 
     return 0;

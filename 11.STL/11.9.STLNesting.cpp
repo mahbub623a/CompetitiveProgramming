@@ -39,7 +39,7 @@ int main()
         }
     }
 
-    for (auto &&pr : map)
+    for (auto &&pr : map) /// map<pair<string, string>, vector<int>> map;
     {
         auto name = pr.first;
         auto mark = pr.second;

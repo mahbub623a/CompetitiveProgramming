@@ -19,7 +19,7 @@ int main()
         for (int i = 0; i < 10; i++)
         {
             if (i == 5)
-                break;
+                break; /// first loop will break
             cout << i << endl;
         }
         cout << "I'm from second for loop";
@@ -37,8 +37,8 @@ int main()
 
     int t;
     cin >> t;
-    cin.ignore(); /// ignore the input problem
-   
+    cin.ignore(); /// ignore the input problem when you have to take string after integer
+
     while (t--)
     {
         string str;
@@ -47,10 +47,8 @@ int main()
     }
 
     string str = "Mahbub";
-    reverse(str.begin(),str.end());
+    reverse(str.begin(), str.end());
     cout << str;
-
-
 
     return 0;
 }

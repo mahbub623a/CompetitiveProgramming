@@ -24,7 +24,9 @@ int main()
         int x, y;
         cin >> x >> y;
         vp.push_back({x, y});
-        // vp[i] = make_pair(x,y); /// only for vp(n) type
+        
+        /// only for vp(n) type
+        // vp[i] = make_pair(x,y);
         // vp[i] = {x, y};
     }
     print(vp);
