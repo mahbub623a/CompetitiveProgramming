@@ -20,7 +20,7 @@ int main()
     s.insert("hij");
 
     /// find a particular element
-    auto it = s.find("abc");
+    auto it = s.find("abc"); /// if value does not exist, it return end() value
     it != s.end() ? cout << *it << "\n" : cout << "Not found\n";
 
     /// we can use value or use iterator to erase some value
@@ -28,7 +28,7 @@ int main()
     /// s.erase(it);
     // print(s);
 
-    /*    
+    /*
       unordered set
       / we can not use complex data type as a key. like pair, set, vector etc
       / we can use int, double, float, char, string etc in unordered set
