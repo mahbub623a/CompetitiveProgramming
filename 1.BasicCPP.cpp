@@ -48,7 +48,11 @@ int main()
 
     string str = "Mahbub";
     reverse(str.begin(), str.end());
-    cout << str;
+    cout << str << endl;
+
+    /// add a value in the last of a string
+    str.push_back('R');
+    cout << str << endl;
 
     return 0;
 }
