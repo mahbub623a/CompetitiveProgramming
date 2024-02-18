@@ -18,3 +18,6 @@
    (a / b) % m = ((a % m) * (b^-1) % m ) % m
 
 7. string s(5,a) means s = "aaaaa";
+
+8. 1 3 5 7 9... = nth position (2*n + 1) and sum (n^2)
+9. 2 4 6 8 10.. = nth position (n*2) and sum (n(n+1))

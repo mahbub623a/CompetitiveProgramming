@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// https://leetcode.com/problems/generate-parentheses/description/
+
 vector<string> valid;
 void generate(string &s, int open, int close)
 {
