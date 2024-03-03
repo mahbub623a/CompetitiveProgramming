@@ -19,14 +19,11 @@ void generate(string &s, int open, int close)
         s.pop_back();
     }
 
-    if (close > 0)
+    if (close > 0 && open < close)
     {
-        if (open < close)
-        {
-            s.push_back(')');
-            generate(s, open, close - 1);
-            s.pop_back();
-        }
+        s.push_back(')');
+        generate(s, open, close - 1);
+        s.pop_back();
     }
 }
 
