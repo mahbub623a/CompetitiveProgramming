@@ -17,29 +17,6 @@ int hsh[N]; // Global array always filled up with zero in each index.
 
 int main()
 {
-    // Basic implementation. T = O(Ne2)
-    int n;
-    cin >> n;
-    int arr[n];
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i];
-    }
-
-    int q;
-    cin >> q;
-    while (q--)
-    {
-        int x, ans = 0;
-        cin >> x;
-        for (int i = 0; i < n; i++)
-        {
-            if (arr[i] == x)
-                ans++;
-        }
-        cout << ans << " ";
-    }
-
     // Hashing  T = O(N)
     int n;
     cin >> n;
